@@ -163,9 +163,6 @@ img {
 
 /* INTRODUÇÃO INTERNA */
 .introducao_interna {
-    background: #fec63e url(../img/bg-sobre.jpg) no-repeat center;
-    background-size: cover;
-
     width: 100%;
     margin-top: 92px;
     height: 160px;
