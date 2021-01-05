@@ -71,6 +71,29 @@
     margin-left: 2px;
 }
 
+ /* Orçamento */
+ .orcamento {
+    background: #000;
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 40px;
+ }
 
+ .orcamento h2{
+     color: #fec63e;
+ }
+
+ .orcamento h2::after{
+    background: #fec63e;
+}
+
+ .form{
+     padding-right: 60px;
+ }
+
+ .form label{
+     display: block;
+
+ }
 
 
