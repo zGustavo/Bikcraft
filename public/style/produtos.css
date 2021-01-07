@@ -76,7 +76,7 @@
     background: #000;
     width: 100%;
     margin-top: 60px;
-    padding-top: 40px;
+    padding: 40px 0;
  }
 
  .orcamento h2{
@@ -93,7 +93,46 @@
 
  .form label{
      display: block;
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+ }
+
+ .form input, .form textarea{
+     display: block;
+     width: 100%;
+     border: 4px solid #fec63e;
+     background: none;
+     color: #FFF;
+     padding: 7px 10px;
+     margin-bottom: 10px;
+     outline: none;
+     font-size: 14px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .form textarea{
+     height: 120px;
+     margin-bottom: 20px;
+ }
+
+ .form button {
+    padding: 7px 40px;
+    background: none;
 
  }
 
-
+ .orcamento_dados {
+     color: #FFF;
+ }
+ .orcamento_dados h3 {
+     font-size: 18px;
+     line-height: 25px;
+     text-transform: uppercase;
+     color: #fec63e;
+     font-weight: bold;
+ }
+ .orcamento_dados span {
+     
+ }
