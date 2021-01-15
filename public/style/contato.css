@@ -59,22 +59,30 @@
      line-height: 30px;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
- .dados_email {
-     margin-bottom: 40px;
- }
-
- .orcamento_dados ul {
-     padding-right: 60px;
- }
-.orcamento_dados ul li{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
-    padding: 10px 15px;
-}
-.orcamento_dados ul li:nth-child(odd) {
-    background: #1d1d1d;
+ 
+.contato_dados span:nth-of-type(even) {
+    margin-bottom: 30px;
 }
 
-.orcamento_dados p{
-    margin: 8px 0;
+ .contato_dados ul {
+     margin-top: 10px;
+ }
+
+.contato_dados ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contato_dados ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 18px;
+}
+
+.contato_dados ul li a:hover {
+    border-color: #000;
+}
+
+.contato_mapa {
+    margin-bottom: 60px;
 }
