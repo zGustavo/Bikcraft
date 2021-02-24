@@ -27,7 +27,7 @@
 }
 
 /* Plugin de slides */
-.rslides {
+.rslides, .rslides_portfolio {
     position: relative;
     list-style: none;
     overflow: hidden;
@@ -36,7 +36,7 @@
     margin: 0;
     }
   
-  .rslides li {
+  .rslides li, .rslides_portfolio li{
     -webkit-backface-visibility: hidden;
     position: absolute;
     display: none;
@@ -45,19 +45,43 @@
     top: 0;
     }
   
-  .rslides li:first-child {
+  .rslides li:first-child, .rslides_portfolio li:first-child {
     position: relative;
     display: block;
     float: left;
     }
   
-  .rslides img {
+  .rslides img, .rslides_portfolio img {
     display: block;
     height: auto;
-    float: left;
     width: 100%;
     border: 0;
     }
 
+    .rslides_tabs {
+      text-align: center;
+      margin-top: 14px;
+    }
+
+    .rslides_tabs li {
+      display: inline;
+      margin: 0 5px;
+    }
+
+    .rslides_tabs li a {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background: #1d1d1d;
+      color: #1d1d1d;
+      border-radius: 20px;
+      overflow: hidden;
+      text-indent: -300px;
+    }
+
+    .rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+      background: #fec63e;
+      color: #fec63e;
+    }
     /* Fim do Plugin /*
 
