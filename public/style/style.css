@@ -25,6 +25,7 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .1em;
+    transition: all .5s ease;
 }
 
 .btn:hover {
@@ -106,6 +107,7 @@ img {
     line-height: 20px;
     text-decoration: none;
     padding: 10px 0;
+    transition: all .3s ease;
 
 }
 .header_menu ul li a:hover{
@@ -378,6 +380,7 @@ img {
     border: 3px solid #fec63e;
     display: block;
     padding: 10px;
+    transition: all .3s ease;
 }
 
 .footer_redes ul li a:hover{
@@ -389,3 +392,56 @@ img {
     background: #fec63e;
     padding: 20px 0;
 }
+
+/* Animações */
+
+.introducao h1, .introducao blockquote, .introducao .btn, .animar, .animar-interno,
+.introducao_interna h1, .introducao_interna p {
+    opacity: 0;
+}
+
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+  }
+
+  .animate__animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .animate__fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
