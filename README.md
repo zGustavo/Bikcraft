@@ -48,10 +48,12 @@ Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.vi
 
 ## 📝 Licença
 
-O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/devMagno/bikcraft/blob/master/LICENSE).
+O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE].
 
 ---
 
-**Desenvolvido com :tw-1f49c: por [Gustavo Dias](https://github.com/zGustavo).**
- :tw-1f4e7: gustavo.diias1@gmail.com
-:fa-linkedin: [Gustavo Dias](https://www.linkedin.com/in/gustavo-dias-a3681231/ "LinkedIn")
+**Desenvolvido com :purple_heart: por [Gustavo Dias](https://github.com/zGustavo).**
+
+:email:gustavo.diias1@gmail.com
+
+[Gustavo Dias](https://www.linkedin.com/in/gustavo-dias-a3681231/ "LinkedIn")
